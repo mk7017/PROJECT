@@ -1,0 +1,123 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+
+/*sprayman*/
+image{
+  margin-top: 5px;
+}
+
+.imgsize{
+  width: 100%;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.banner{
+  margin: auto 15px;
+  padding: 5px 20px;
+  font-size: 20px;
+  font-family: Ubuntu;
+  background:#2c292f;
+  color:white;border-radius: 20px;
+}
+
+.midl{
+    float: left;
+    width: 60%;
+} 
+
+.mid1{
+    box-shadow: 2px 3px 5px gray;
+    margin: 10px 20px;
+
+}
+.mid2{
+    box-shadow: 2px 3px 5px gray;
+    margin: 20px;
+}
+
+
+.content{
+    margin:5px;
+}
+
+
+.midr{
+    float: right;
+    width: 40%;
+}
+
+
+.foot{
+    background-color: grey;
+    clear: both;
+    height: 140px;
+    padding: 20px;
+    display: block;
+}
+.btn{
+    color:whitesmoke;
+    padding: 10px 17px;
+    font-size: 17px;
+}
+
+.btn1{
+    background-color: #2c292f;
+    color: white;
+    padding: 10px 17px;
+    margin-bottom: 30px;
+    font-size: 17px;
+    text-align: center;
+    font-family: Ubuntu;
+    border-radius: 10px;
+}
+.btn1:hover{
+    background-color: #e0ac1c;
+    color:black;
+    border-radius: 5px;
+}
+
+.btn2{
+    background-color: #42f54e;
+    color: black;
+    padding: 10px 17px;
+    margin-bottom: 30px;
+    font-size: 17px;
+    text-align: center;
+    font-family: Ubuntu;
+    border-radius: 10px;
+}
+.btn2:hover{
+    background-color: darkgreen;
+    color:white;
+    border-radius: 10px;
+}
+
+
+
+@media screen and (max-width: 720px) {
+    .midl, .midr  {
+      width: 100%;
+      box-shadow: none;
+    }
+  }
+
+  @media screen and (max-width: 530px) {
+    .remove  {
+      display: none;
+    }
+  }
+
+.covidcombat{
+  font-family: Ubuntu;
+  font-size: 17px;
+}
+
+.content1{
+   border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
